@@ -31,6 +31,10 @@ nav a{
     border-radius: 5px;
     font-weight:bold;
 }
+.nav-btn:hover{
+    cursor: pointer;
+    background-color: #33684a;
+}
 /*hero-section*/
 .hero-section{
     max-width: 1920px;
@@ -87,10 +91,27 @@ nav a{
 .arrow-btn{
     display: flex;
     align-items: center;
+    border: none;
     border-radius: 4px;
     background-color: #26884f;
     padding: 0 10px;
 }
+.arrow-btn:hover{
+    cursor: pointer;
+    background-color: #2dbb6a;
+}
+.arrow-btn button:hover{
+    cursor: pointer;
+    background-color: #2dbb6a;
+}
+.play-btn:hover{
+    cursor: pointer;
+    background-color: #031a2e;
+}
+.play-btn button:hover{
+    cursor: pointer;
+}
+
 .play-btn{
     display: flex;
     align-items: center;
@@ -215,19 +236,27 @@ nav a{
     margin: 20px auto;
     gap: 5px;
 }
+.second-last-btn:hover{
+    cursor: pointer;
+    background-color: #2dbb6a;
+}
 
 .second-last-btn button{
     background-color: #26884f;
     color: white;
     font-size: 15px;
-    padding: 15px 10px;
+    padding: 15px;
     border:none;
     font-weight: bold;
+}
+.second-last-btn button:hover{
+    cursor: pointer;
+    background-color: #2dbb6a;
 }
 .footer {
   background: linear-gradient(to bottom, #06233c, #031a2e);
   color: white;
-  padding: 94px 165px;
+  padding: 80px 165px;
   font-family: Arial, sans-serif;
 }
 .footer-top {
