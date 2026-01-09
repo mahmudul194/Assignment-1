@@ -19,6 +19,11 @@ ul{
     list-style: none;
     gap: 32px;
 }
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
 .nav-btn{
     color: white;
     background-color: #30B868;
