@@ -2,11 +2,9 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
-header{
-    background-color: #FFFFFF;
-}
-
+/*Navbar*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -32,4 +30,79 @@ nav a{
     border: none;
     border-radius: 5px;
     font-weight:bold;
+}
+/*hero-section*/
+.hero-section{
+    max-width: 1920px;
+    margin: auto;
+    background-image: url('assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 674px;
+}
+.hero-content .badge{
+    margin-bottom: 20px;
+}
+.hero-content span{
+    background-color:rgb(252, 249, 249);
+    color: #30B868;
+    border-radius: 200px;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 3px 15px;
+    border: none;
+    font-weight: bold;
+}
+.hero-content{
+    color: white;
+    text-align: center;
+    padding-top: 8em;
+}
+.first-h{
+    font-size: 64px;
+}
+.second-h{
+    font-size: 64px;
+    color: #30B868;
+    margin-bottom: 25px;
+}
+.hero-content p{
+    color: rgb(195, 196, 196);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.arrow-btn button{
+    background-color: #26884f;
+    color: white;
+    font-size: 15px;
+    padding: 15px 10px;
+    border:none;
+    font-weight: bold;
+}
+.arrow-btn{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #26884f;
+    padding: 0 10px;
+}
+.play-btn{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    gap: 5px;
+}
+.play-btn button{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
 }
