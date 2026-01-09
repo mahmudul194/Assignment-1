@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    max-width: 1920px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.nav-btn{
+    color: white;
+    background-color: #30B868;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight:bold;
+}
