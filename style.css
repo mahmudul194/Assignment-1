@@ -49,7 +49,7 @@ nav a{
     border-radius: 200px;
     font-size: 15px;
     border: 2px solid white;
-    padding: 3px 15px;
+    padding: 3px 10px;
     border: none;
     font-weight: bold;
 }
@@ -59,10 +59,10 @@ nav a{
     padding-top: 8em;
 }
 .first-h{
-    font-size: 64px;
+    font-size: 74px;
 }
 .second-h{
-    font-size: 64px;
+    font-size: 74px;
     color: #30B868;
     margin-bottom: 25px;
 }
@@ -97,7 +97,7 @@ nav a{
     border: 2px solid white;
     border-radius: 4px;
     padding: 10px 15px;
-    gap: 5px;
+    gap:5px;
 }
 .play-btn button{
     background-color: transparent;
@@ -105,4 +105,46 @@ nav a{
     font-size: 15px;
     border: none;
     font-weight: bold;
+}
+.feature{
+    background-color: #F9F9F9;
+    padding: 60px 0;
+}
+.f-heading{
+    text-align: center;
+}
+.f-heading h1{
+    font-size: 48px;
+}
+.f-heading p{
+    font-size: 15px;
+    color: gray;
+}
+.feature-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height:250px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h2{
+    margin:10px 0;
+}
+.card p{
+    color: gray;
+    margin-top: 10px;
+}
+.card img{
+    background-color: tomato;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
 }
